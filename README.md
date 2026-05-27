@@ -21,3 +21,23 @@ Instead of saving text where every character consumes a fixed 8 bits (1 byte), t
 Run the application entry file from your terminal:
 ```bash
 python main.py
+
+
+## Example Output
+
+When you run `main.py`, the terminal processes the text data and displays the following optimization breakdown:
+
+```text
+=========================================
+   Huffman Coding File Compressor CLI   
+=========================================
+
+Reading 'sample.txt' successful (63 characters)...
+
+--- Compression Metrics ---
+Original Size:   504 bits
+Compressed Size: 262 bits
+Space Reduction: 48.02%
+
+--- Integrity Verification ---
+Success! Decompressed text matches original text perfectly.
